@@ -10,7 +10,7 @@ class Program {
     double x3 = number % 100 / 10;
     double x4 = number % 10;
 
-    double result = (Math.Pow(x1, 2) - Math.Pow(x4, 2)) +    (Math.Pow(x2, 2) - Math.Pow(x3, 2));
+    double result = (Math.Pow(x1, 2) - Math.Pow(x4, 2)) + (Math.Pow(x2, 2) - Math.Pow(x3, 2));
     
     Console.WriteLine($"Ответ: {result}");
     Console.ReadKey();
